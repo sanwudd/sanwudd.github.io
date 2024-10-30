@@ -378,24 +378,29 @@ font-family: 'Lobster', cursive;
 }
 
 .polaroid {
-  width: 240x;
-  height: 220px;
-  position: absolute;
-  float: left;
+  width: 300px; /* 调整为有效的宽度 */
+  height: 355px;
+  position: relative; /* 改为相对定位 */
   background: #1e1c18;
-  border: 7px solid #f5f5f5;
-  border-bottom: 50px solid #f5f5f5;
-  -webkit-box-shadow: 0 0 6px -1px #000;
-          box-shadow: 0 0 6px -1px #000;
-  overflow: hidden;
-  left: 0;
-  right: 0;
+  top: -25px;
+  border: 7px solid #f8e0e0;
+  border-bottom: 50px solid #f8e0e0;
+  box-shadow: 0 0 6px -1px #000;
+  overflow: visible; /* 确保文本可见 */
   margin: auto;
-  -webkit-transform: rotate(-5deg);
-          transform: rotate(-5deg);
-  clear: both;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  transform: rotate(-5deg);
+}
+
+.img {
+  height: 80%; /* 调整图片占容器的高度 */
+  background-size: cover; /* 确保背景图像覆盖 */
+}
+
+.text {
+  margin-top: 10px; /* 与图片的间距 */
+  text-align: center; /* 文本居中 */
+  color: black; /* 确保字体颜色可见 */
+  font-size: 16px; /* 字体大小 */
 }
 .polaroid img,
 .polaroid .img {
