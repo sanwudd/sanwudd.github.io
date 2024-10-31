@@ -68,7 +68,7 @@ body {
 }
 
 #card-inside {
-  font-size: 1.3em;
+  font-size: 1em;
   line-height: 1.4;
 font-family: 'Lobster';
   color: #331717;
@@ -77,15 +77,17 @@ font-family: 'Lobster';
 
 p {
   margin-top: 1em;
+  text-align: left; /* 或其他你想要的对齐方式 */
+
 }
 
 p:first-child {
-  margin-top: 0;
+  margin-top: 1em;
 }
 
 p.signed {
   margin-top: 1em;
-  text-align: center;
+  text-align: right;
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
   font-size: 0.75em;
