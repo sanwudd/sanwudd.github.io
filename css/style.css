@@ -76,7 +76,7 @@ font-family: 'Lobster';
 }
 
 p {
-  margin-top: 1em;
+  margin-top: .5em;
   text-align: left; /* 或其他你想要的对齐方式 */
 
 }
@@ -85,12 +85,13 @@ p:first-child {
   margin-top: 1em;
 }
 
+
 p.signed {
   margin-top: 1em;
   text-align: right;
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
-  font-size: 0.75em;
+  font-size: 1em;
 }
 
 #card-front {
@@ -404,6 +405,7 @@ font-family: 'Lobster', cursive;
   color: black; /* 确保字体颜色可见 */
   font-size: 16px; /* 字体大小 */
 }
+
 .polaroid img,
 .polaroid .img {
   width: 100%;
@@ -420,7 +422,7 @@ font-family: 'Lobster', cursive;
 
 .wishesFont{
   font-family: 'Indie Flower', cursive;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 @-webkit-keyframes fade-in {
